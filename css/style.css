@@ -16,26 +16,24 @@ body {
 
 nav {
   margin: 0 auto;
-  padding: 10px 0 0px 15px;
-  position: fixed;
+  padding: 5px 0 5px 15px;
   width: 420px;
   background-color: black;
 }
 
 .restaurant-list {
-  padding-top: 42px;
   width: 100%;
 }
 
 h1 {
-  padding-left: 1em;
+  padding: 1em 0 0 1em;
   margin: 0;
   font-weight: bold;
   font-size: 2em;
 }
 
 h3 {
-  padding: 0 0 1.5em 1.5em;
+  padding: 0 0 1.2em 1.2em;
   margin: 0;
   font-weight: lighter;
   font-size: 1.5em;
@@ -47,9 +45,10 @@ div.location a:hover {
 }
 
 div.arrow-left {
-  padding: .5em;
+  margin: .5em;
 }
 
 div.arrow {
-  padding-left: 38em;
+  margin: 2em;
+  float: right;
 }
