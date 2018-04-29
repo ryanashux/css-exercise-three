@@ -20,6 +20,9 @@ nav {
   background-color: black;
 }
 
+div {
+  background-color: white;
+}
 .content {
   width: 90%;
 }
@@ -55,7 +58,7 @@ div.arrow-left {
 }
 
 div.arrow {
-  margin: 2em;
+  margin: 0;
   width: 5%;
   padding: 20px 0;
 }
