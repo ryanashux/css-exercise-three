@@ -55,10 +55,11 @@ div.location a:hover {
 
 div.arrow-left {
   margin: .5em;
+  background-color: black;
 }
 
 div.arrow {
   margin: 0;
   width: 5%;
-  padding: 20px 0;
+  padding: 20px 5;
 }
