@@ -11,7 +11,6 @@ body {
 .container {
   margin: 0 auto;
   width: 420px;
-  background-color: #dbd9db;
 }
 
 nav {
@@ -21,8 +20,8 @@ nav {
   background-color: black;
 }
 
-.restaurant-list {
-  width: 100%;
+.content {
+  width: 90%;
 }
 
 h1 {
@@ -37,7 +36,14 @@ h3 {
   margin: 0;
   font-weight: lighter;
   font-size: 1.5em;
+}
+
+div {
+  display: inline-block;
+}
+.location {
   border-bottom: 1px solid gray;
+  width: 100%;
 }
 
 div.location a:hover {
@@ -50,5 +56,6 @@ div.arrow-left {
 
 div.arrow {
   margin: 2em;
-  float: right;
+  width: 5%;
+  padding: 20px 0;
 }
