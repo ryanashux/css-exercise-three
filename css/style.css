@@ -21,7 +21,6 @@ nav {
 }
 
 div {
-  background-color: white;
   display: inline-block;
 }
 
@@ -46,6 +45,7 @@ h3 {
 .location {
   border-bottom: 1px solid gray;
   width: 100%;
+  background-color: white;
 }
 
 .arrow-left {
