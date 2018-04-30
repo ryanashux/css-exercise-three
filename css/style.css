@@ -22,7 +22,9 @@ nav {
 
 div {
   background-color: white;
+  display: inline-block;
 }
+
 .content {
   width: 90%;
 }
@@ -41,25 +43,16 @@ h3 {
   font-size: 1.5em;
 }
 
-div {
-  display: inline-block;
-}
 .location {
   border-bottom: 1px solid gray;
   width: 100%;
 }
 
-div.location a:hover {
-  background: #7f848c;
-}
-
-div.arrow-left {
+.arrow-left {
   margin: .5em;
   background-color: black;
 }
 
-div.arrow {
-  margin: 0;
-  width: 5%;
-  padding: 20px 5;
+.location:hover, .content:hover, .arrow:hover {
+  background-color: #d3d3d3;
 }
